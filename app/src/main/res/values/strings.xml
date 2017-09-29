@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="not_found">Oops, no news found</string>
+    <string name="no_internet">Check your Internet connection</string>
+    <string name="settings">Settings</string>
+    <string name="httpProblem">Problem with http request</string>
+    <string name="urlProblem">Problem building the URL</string>
+    <string name="readProblem">Error occurred</string>
+    <string name="jsonProblem">Problem receiving JSON results</string>
+    <string name="jsonProblem2">Problem parsing JSON results</string>
+    <string name="dateParsing">Problem with parsing date</string>
+    <string name="order_by">Order by:</string>
+    <string name="order_by_key">order-by</string>
+    <string name="default_order_by">newest</string>
+    <!-- Order by newest news -->
+    <string name="newest">Newest News</string>
+    <string name="newest_value" translatable="false">newest</string>
+    <!-- Order by oldest news relevance -->
+    <string name="relevance">Relevance News</string>
+    <string name="relevance_value" translatable="false">relevance</string>
+    <!-- Order by oldest news -->
+    <string name="oldest">Oldest News</string>
+    <string name="oldest_value" translatable="false">oldest</string>
+    <!-- Set the number of news in the list -->
+    <string name="news_number">Choose number of news:</string>
+    <string name="news_number_kye" translatable="false">number_of_news</string>
+    <string name="default_news_number" translatable="false">15</string>
+</resources>

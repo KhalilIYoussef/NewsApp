@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/settings">
+
+    <EditTextPreference
+        android:defaultValue="@string/default_news_number"
+        android:inputType="number"
+        android:key="@string/news_number_kye"
+        android:selectAllOnFocus="true"
+        android:title="@string/news_number" />
+
+    <ListPreference
+        android:defaultValue="@string/default_order_by"
+        android:entries="@array/order_by"
+        android:entryValues="@array/order_by_values"
+        android:key="@string/order_by_key"
+        android:title="@string/order_by"/>
+    </PreferenceScreen>
